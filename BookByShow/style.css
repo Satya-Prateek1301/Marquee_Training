@@ -198,3 +198,118 @@ a{
     height: 222px;
     width: 222px;
 }
+
+.Premiere{
+    background-color: #2B3149;
+    height: 645px;
+    margin: 0px 10px;
+    padding: 40px 20px;
+}
+
+.premierelogo{
+    display: flex;
+    margin: 0px 140px;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+
+.premierelogo .play{
+    background-color: #DB354B;
+    width: 60px;
+    height: 60px;
+    padding: 10px 7px;
+    border-radius: 50%;
+}
+
+.fa-play{
+    color: #F5F5F5;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.Premieretext{
+    color: #F3F4FA;
+    font-size: 10px;
+    /* display: flex; */
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.premierelogo div p{
+    color: #F3F4FA;
+    padding: 0px 15px;
+    font-weight: 600;
+    font-size: larger;
+    font-family: Roboto;
+}
+
+
+.headingpremiere{
+    margin-top: 50px;
+}
+
+.headingpremiere p{
+    color: #F3F4FA;
+}
+
+.headingpremieretext{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0px 140px;
+}
+
+.subtext{
+    margin: 0px 140px;
+}
+
+
+.pcards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* flex-wrap: wrap; */
+    height: 390px;
+    width: 1200px;
+    gap: 31px;
+    /* margin-left: 140px; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 10px 140px;
+}
+
+.pcards::-webkit-scrollbar{
+    display: none;
+}
+
+.pcard{
+    /* border: 2px solid red; */
+    height: 466px;
+    width: 222px;
+    overflow-wrap: break-word;
+    /* margin: 15px 140px; */
+}
+
+.pcard img{
+    height: 334px;
+    width: 219px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pcard .ptext{
+    color: #F3F4FA;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ptype{
+    color: #F3F4FA;
+    font-weight: 300;
+}

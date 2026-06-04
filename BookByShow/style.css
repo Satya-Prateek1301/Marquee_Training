@@ -9,20 +9,21 @@
 body{
     font-family: "Roboto","Sans ";
     background-color: #F2F5F9;
-    position: relative;
+    /* position: relative; */
 }
 
 .navBar{
     display: flex;
     justify-content: space-between;
-    padding: 10px 50px;
+    padding: 10px 130px;
     align-items: center;
     background-color: white;
-    /* position: fixed; */
-    /* width: 100%; */
-    /* z-index: 999; */
-    /* top: 0; */
-    /* left: 0; */
+    /* margin: ; */
+    /* position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0; */
 }
 
 .left-nav{
@@ -67,11 +68,11 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #F5F5F5;
-    padding: 0px 35px;
+    padding: 0px 120px;
     border-bottom: 1px solid #E5E5E5;
     align-items: center;
     /* position: absolute; */
-    /* width: 100%; */
+    width: 100%;
     /* z-index: 1000; */
     /* margin-top: 60px; */
     /* height: auto; */

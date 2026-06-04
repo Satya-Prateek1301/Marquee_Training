@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .footer{
+            background-color:#232F3E;
+            color:white;
+            width:100%;
+            padding:90px 200px;
+            font-family:Arial, sans-serif;
+        }
+
+
+        .footer-container{
+            display:flex;
+            justify-content:space-around;
+        }
+        
+        
+        .footerLastContainer{
+            display:flex;
+            justify-content:space-around;
+            background-color:#232F3E;
+            color:white;
+            border-top: 0.5px solid #DDDDDD;
+            width:100%;
+            padding:65px 510px;
+            font-family:Arial, sans-serif;
+
+        }
+
+        .footerColumn{
+            width:400px;
+        }
+
+        .footerTitle{
+            font-size:22px;
+            margin-bottom:20px;
+            font-weight:bold;
+        }
+
+        .footerText{
+            font-size:18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #DDDDDD;
+            line-height:2;
+            cursor:pointer;
+        }
+
+        .footer-logo {
+            width: 80px;
+            height: 40px;
+        }
+
+        .footerText:hover{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main" style="width: 100%; height: 100vh;">
+
+        <!-- NavBar Upper -->
+
+        <div class="nav1" style=" position: relative; display: flex; justify-content: space-around; background-color: #131921; color: #FFFFFF; width: 100%; height: 7vh; align-items: center; margin-left: 0px;">
+            <img src="img/amazon_logo_white.png" alt="Logo" width="130px">
+            <p>Vadodara</p>
+            <div class="searchBar">
+                <input type="text" style="width: 900px; height: 50px">
+                <button style="width: 50px; height: 50px">Search</button>
+            </div>
+            <p>Account</p>
+            <p>Returns</p>
+            <p>Cart</p>
+        </div>
+
+        <!-- NavBar Lower -->
+
+        <div class="nav2" style=" position: sticky; display: flex; justify-content: space-around; background-color: #232F3E; color: #FFFFFF; width: 100%; height: 5vh; align-items: center; font-size: 18px;">
+            <p>All</p>
+            <p>Fresh</p>
+            <p>MX Player</p>
+            <p>Sell</p>
+            <p>Bestseller</p>
+            <p>Mobiles</p>
+            <p>Today's Deal</p>
+            <p>New Releases</p>
+            <p>Custom Service</p>
+            <p>Prime</p>
+            <p>Amazon Pay</p>
+            <p>Electronics</p>
+            <p>Fashion</p>
+            <p>Home & Kitchen</p>
+            <p>Computers</p>
+            <p>Toys & Game</p>
+            <p>Books</p>
+        </div>
+
+        <!-- Advertisment Section -->
+         <div class="advertisments" style="width: 100%; height: 420px; background-color: #408849; display: flex; justify-content: center; padding-top: 20px; gap: 48px; ">
+            <div class="left" style="display: inline; justify-content: space-around; color: #FFFFFF; font-size: 45px; align-items: center;">
+                <p style="padding-top: 60px; font-size: 40px; font-weight: bolder; font-family: Arial, Helvetica, sans-serif;"><b>Starting ₹199</b></p>
+                <p style="font-size: 35px; font-family: Arial, Helvetica, sans-serif;">Deals on summer Fashion</p>
+            </div>
+            <div class="right">
+                <img src="img/74._CB783716748_.png" alt=""  style="width: 420px; height: 350px;">
+            </div>
+         </div>
+
+         <!-- MainBody 4 Div -->
+        <div style="display: flex; justify-content: space-around; width: 100%; padding: 20px; background-color: #E3E6E6;">
+            
+            <!-- First Card -->
+            <div style=" width: 450px; height: 500px; padding: 15px; padding-top: 20px; background-color: #FFFFFF;">
+                <p style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;"><b>Appliances for your home | Upto 55% off</b></p>
+
+                <div class="img1" style="display: flex; justify-content: space-around; padding-top: 20px;">
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" alt="">
+                        <p>Air Conditioners</p>
+                    </div>
+
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" alt="">
+                        <p>Refrigerators</p>
+                    </div>
+                </div>
+                
+                <div class="img2" style="display: flex; justify-content: space-around; padding-top: 20px;">
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" alt="">
+                        <p>Microwaves</p>
+                    </div>
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg" alt="">
+                        <p>Washing machine</p>
+                    </div>
+                </div>
+                <div style="margin-top: 50px;">
+                    <a href="#" style="text-decoration: none;">See more</a>
+                </div>
+            </div>
+
+
+            <!-- Second Card -->
+            <div style=" width: 450px; height: 500px; padding: 15px; padding-top: 20px; background-color: #FFFFFF;">
+                <p style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;"><b>Bulk order discounts + 10% Guaranteed cashback</b></p>
+
+                <div class="img1" style="display: flex; justify-content: space-around; padding-top: 20px;">
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img26/may/gw/2_186_116_1605._SY116_CB763080337_.jpg" alt="">
+                        <p>Electronics & accessories</p>
+                    </div>
+
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img26/may/gw/3_186_116_1605._SY116_CB763080337_.jpg" alt="">
+                        <p>Home appliances</p>
+                    </div>
+                </div>
+                
+                <div class="img2" style="display: flex; justify-content: space-around; padding-top: 20px;">
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img26/may/gw/1_186_116_1605._SY116_CB763080337_.jpg" alt="">
+                        <p>Industrial supplies</p>
+                    </div>
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonBusiness/img26/may/gw/ABStackedLogo186_116_1._SY116_CB763080337_.jpg" alt="">
+                        <p>Register using GST</p>
+                    </div>
+                </div>
+                <div style="margin-top: 50px;">
+                    <a href="#" style="text-decoration: none;">Create a free account</a>
+                </div>
+            </div>
+
+
+            <!-- Third Card -->
+            <div style="width: 450px; height: 500px; padding: 15px; padding-top: 20px; background-color: #FFFFFF;">
+                <p style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;"><b>Revamp your home in style</b></p>
+
+                <div class="img1" style="display: flex; justify-content: space-around; padding-top: 20px;">
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_furnishings_2._SY116_CB555624324_.jpg" alt="">
+                        <p>Cushion covers,bedsheets</p>
+                        <p>& more</p>
+                    </div>
+
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_decor_1._SY116_CB555624324_.jpg" alt="">
+                        <p>Figurines, vases  & more</p>
+                    </div>
+                </div>
+                
+                <div class="img2" style="display: flex; justify-content: space-around; padding-top: 20px;">
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_storage_1._SY116_CB555624324_.jpg" alt="">
+                        <p>Home storage</p>
+                    </div>
+                    <div>
+                        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_lighting_2._SY116_CB555624324_.jpg" alt="">
+                        <p>Lighting solutions</p>
+                    </div>
+                </div>
+                <div style="margin-top: 50px;">
+                    <a href="#" style="text-decoration: none;">Explore all</a>
+                </div>
+            </div>
+
+
+            <!-- Fourth Card -->
+            <div style=" width: 450px; height: 500px; padding: 15px; padding-top: 20px; background-color: #FFFFFF;">
+                <p style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;"><b>Up to 75% off | Deals on headphones</b></p>
+
+                <div class="img1" style="display: flex; justify-content: space-around; padding-top: 20px;">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/61B5hIAmvdL._AC_SY170_.jpg" alt="">
+                        <!-- <p>Air Conditioners</p> -->
+                    </div>
+
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/61+SW9nDTEL._AC_SY170_.jpg" alt="">
+                        <!-- <p>Refrigerators</p> -->
+                    </div>
+                </div>
+                
+                <div class="img2" style="display: flex; justify-content: space-around; padding-top: 20px;">
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/61FSJbnM3rL._AC_SY170_.jpg" alt="">
+                        <!-- <p>Microwaves</p> -->
+                    </div>
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/711l4y8aNlL._AC_SY170_.jpg" alt="">
+                        <!-- <p>Washing machine</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="login" style="display: flex; justify-content: center; padding-top: 50px; padding-bottom: 50px;  align-items: center; width: 100%;">
+            <div style="border-top: 1px solid gray; width: 100%; padding: 0; border-bottom: 1px solid gray; width: 100%; ">
+                <div style="text-align: center; padding-top: 45px; padding-bottom: 40px;">
+                    <h1 style="line-height: 60px;">See personalized recommendations</h1>
+                    <button style="width: 300px; height: 40px; border-radius: 2rem; background: #FFCE12; border: none; font-size: 1.2rem;">
+                        Sign in
+                    </button>
+                    <p>New customer? <a href="#">Start here</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <button style="background-color: #485769; color: #FFFFFF; width: 100%; height: 6vh; font-size: 1rem; font-family: Arial, Helvetica, sans-serif; border: none;">Back to top</button>
+        </div>
+
+
+        <footer class="footer">
+
+            <div class="footer-container">
+
+                <div class="footerColumn">
+                    <h3 class="footerTitle">Get to Know Us</h3>
+                    <p class="footerText">About Amazon</p>
+                    <p class="footerText">Careers</p>
+                    <p class="footerText">Press Releases</p>
+                    <p class="footerText">Amazon Science</p>
+                </div>
+
+                <div class="footerColumn">
+                    <h3 class="footerTitle">Connect with Us</h3>
+                    <p class="footerText">Facebook</p>
+                    <p class="footerText">Twitter</p>
+                    <p class="footerText">Instagram</p>
+                </div>
+
+                <div class="footerColumn">
+                    <h3 class="footerTitle">Make Money with Us</h3>
+                    <p class="footerText">Sell on Amazon</p>
+                    <p class="footerText">Sell under Amazon Accelerator</p>
+                    <p class="footerText">Protect and Build Your Brand</p>
+                    <p class="footerText">Amazon Global Selling</p>
+                    <p class="footerText">Supply to Amazon</p>
+                    <p class="footerText">Become an Affiliate</p>
+                    <p class="footerText">Fulfilment by Amazon</p>
+                    <p class="footerText">Advertise Your Products</p>
+                </div>
+
+                <div class="footerColumn">
+                    <h3 class="footerTitle">Let Us Help You</h3>
+                    <p class="footerText">Your Account</p>
+                    <p class="footerText">Returns Centre</p>
+                    <p class="footerText">Recalls and Product Safety Alerts</p>
+                    <p class="footerText">100% Purchase Protection</p>
+                    <p class="footerText">Amazon App Download</p>
+                    <p class="footerText">Help</p>
+                </div>
+
+            </div>
+
+
+            
+            
+        </footer>
+
+
+        <div class="footerLastContainer" style="width: 100%; height: 40px;">
+            <img src="img/amazon_logo_white.png" 
+                alt="Amazon Logo" 
+                class="footer-logo">
+
+            <div class="footer-box" style="display: flex; justify-content: center; gap: 10px; align-items: center; height: 15px; ">
+                <p style="border: 1px solid #DDDDDD; width: 100px; height: 40px; text-align: center; padding: 10px;">English</p>
+                <p style="border: 1px solid #DDDDDD; width: 100px; height: 40px; text-align: center; padding: 10px;">🇮🇳 India</p>
+            </div>
+        </div>
+
+        <div class="lastFooter" style="width: 100%; height: 350px; background-color: #131A22;">
+
+        </div>
+    </div>
+</body>
+</html>

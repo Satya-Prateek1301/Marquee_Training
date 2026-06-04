@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            padding: 30px;
+            background-color: #C4CBB7;
+        }
+
+        .main{
+            width: 1000px;
+            border: 2px solid black;
+            padding: 9px 30px;
+            border-radius: 40px;
+            background-color: #5a2e2e4a;
+        }
+
+        header h1{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        /* header{
+            padding: 20px;
+        } */
+
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+        }
+
+        .card{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 40px;
+            width: 400px;
+            height: 300px;
+            border: 2px solid black;
+            /* overflow: hidden; */
+            padding: 50px 40px;
+            background-color: #E8CAAF;
+
+        }
+        
+        .card2{
+            margin-bottom: 30px;
+        }
+
+        img{
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        
+        .type{
+            font-size: xx-large;
+
+        }
+
+        .card{
+            display: flex;
+            border-radius: 40px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <header><h1>Menu</h1></header>
+
+        <div class="cards">
+
+            <div class="card card1">
+                <div class="content">
+                    <p class="type">Drinks</p>
+                    <p class="text">Refreshing beverages including juices, soft drinks, smoothies, and mocktails, perfect for quenching your thirst and complementing every meal.</p>
+                </div>
+                <div class="img img1">
+                    <img src="https://imgs.search.brave.com/h7ec9uauXJ-MSK2_IpEW3ll167hNKpCjnrcMRLO9Hhc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/dGhlc2UtYWVzdGhl/dGljYWxseS1wbGVh/c2luZy1kcmlua3Mt/djAtNzIycHFhbWJ0/ZzRiMS5qcGc_d2lk/dGg9NjQwJmNyb3A9/c21hcnQmYXV0bz13/ZWJwJnM9ZjliOWQx/OWU3MmJmN2U5MjE4/ZmE0YjRlNDdkNTMw/YjBmYzIyNmY2Yw" alt="">
+                </div>
+            </div>
+
+
+            <div class="card card2">
+                <div class="content">
+                    <p class="type">Snacks</p>
+                    <p class="text">Crispy, flavorful snacks prepared with quality ingredients, perfect for quick bites, evening cravings, and sharing with friends and family on any occasion.</p>
+                </div>
+                <div class="img img2">
+                    <img src="https://imgs.search.brave.com/TKf8RwaFKpJ_2ulRUK3Uh1r25OZKHEhTRODOr9UOmpc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Q0LzBh/Lzk1L2Q0MGE5NTVj/NGY1MWQyYWM3NmZm/OWE1MzliNzllODAx/LmpwZw" alt="">
+                </div>
+            </div>
+
+
+            <div class="card card3">
+                <div class="content">
+                    <p class="type">Tea</p>
+                    <p class="text">Enjoy aromatic tea selections, from classic milk tea to herbal blends, brewed fresh to deliver warmth, comfort, and rich flavor in every sip.</p>
+                </div>
+                <div class="img img3">
+                    <img src="https://imgs.search.brave.com/IGcjmWhHvQxw2IErlzEdNlxGHAgU8wq05DZ3Zh-aHYw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9raWtp/bHV4eGEuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI2LzA0/L0Flc3RoZXRpYy1U/ZWFwb3RzLVRoYXQt/RWxldmF0ZS1Zb3Vy/LUV2ZXJ5ZGF5LVRl/YS1SaXR1YWwtMi1z/Y2FsZWQuanBn" alt="">
+                </div>
+            </div>
+
+
+            <div class="card card4">
+                <div class="content">
+                    <p class="type">Biscuits</p>
+                    <p class="text">Delicious biscuits baked to perfection, offering a delightful balance of crunch and taste, ideal for pairing with tea, coffee, or enjoying anytime.</p>
+                </div>
+                <div class="img img4">
+                    <img src="https://imgs.search.brave.com/wgykA5d1EyhpmYRxkEfv0lCByh8sqm7v6RbtIVsFBVs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzQ4L2Jj/L2I0LzQ4YmNiNDI0/YjYxNTc3NmZhMjI4/MTdjYjhiNzgzYWQ4/LmpwZw" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</body>
+</html>

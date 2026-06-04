@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>YouTube Clone</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        /* MAIN CONTAINER */
+        .main{
+            width:100%;
+        }
+
+        /* LEFT SIDEBAR */
+        .left{
+            width:15%;
+            height:100vh;
+            background-color:#f1f1f1;
+            display:inline-block;
+            vertical-align:top;
+            padding:20px;
+        }
+
+        /* RIGHT CONTENT */
+        .right{
+            width:84%;
+            height:100vh;
+            background-color:white;
+            display:inline-block;
+            vertical-align:top;
+            padding:20px;
+        }
+
+        /* SIDEBAR ITEMS */
+        .menu{
+            margin-bottom:25px;
+            font-size:20px;
+        }
+
+        /* .menu i{
+            margin-right:10px;
+            font-size:25px;
+        } */
+
+        .nav{
+            width:100%;
+            padding:10px;
+            margin-left: 1%;
+            /* vertical-align: middle; */
+            /* border-bottom:1px solid #ccc; */
+        }
+
+        .logo, .input, .create, .bellIcon, .profile{
+            display:inline-block;
+            vertical-align:middle;
+            margin-right:20px;
+        }
+
+        .input input{
+            width:600px;
+            padding:8px;
+            border-radius: 15px;
+            
+        }
+
+        .profile{
+            width:35px;
+            height:35px;
+            background-color:#465A65;
+            border-radius:50%;
+            text-align: center;
+            padding: 6px;
+            font-size: 20px;
+            color: #FEFEFE;
+        }
+
+        .logo img{ 
+            width:40px; 
+            vertical-align:middle; 
+        } 
+        .logo{
+            display: inline-block;
+            margin-bottom: 8px;
+            font-size:25px; 
+            font-weight:bold; 
+            margin-top: 10px;
+            /* vertical-align: middle; */
+        }
+
+        .logo span{
+            vertical-align: middle;
+        }
+
+        .mic{
+            vertical-align: middle;
+        }
+
+        .create{
+            display: inline;
+            width: 70px;
+            height: 30px;
+            background-color: #E5E5E5;
+            padding: 7px;
+            padding-left: 14px;
+            vertical-align: middle;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .create i{
+            font-size: 30px;
+            font-weight: 600;
+            vertical-align: middle;
+        }
+
+        /* .profile{
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            width: 35px;
+            height: 35px;
+        } */
+
+        /* .profile img{
+            width:35px;
+            height:35px;
+            border-radius:50%;
+        } */
+
+        .mic-main .mic{
+            margin-right: 15%;
+        }
+
+
+        .nav2{
+            width:100%;
+            margin-top:20px;
+            /* white-space:nowrap; */
+            /* overflow-x:auto; */
+            padding-bottom:10px;
+        }
+
+        .nav2 .box{
+            display:inline-block;
+            padding:8px 18px;
+            background-color:#f1f1f1;
+            border-radius:10px;
+            margin-right:10px;
+            font-size:14px;
+            font-weight:500;
+        }
+        
+        /* .nav2::-webkit-scrollbar{ display:none; } */
+
+        .bellIcon img{
+            width: 28px;
+        }
+
+        .hero1{
+            /* display: inline; */
+            width: 100%;
+            height: 300px;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+        
+        .hero1 .vid{
+            display: inline-block;
+            /* padding-left: 3.5%; */
+
+            width: 400px;
+            height: 220px;
+            background-color: white;
+        }
+
+        .card{
+            display: inline-block;
+            width: 400px;
+            height: 220px;
+            background-color: white;
+        }
+        
+        /* iframe{
+            padding: 10px;
+            width: 350px;
+            height: 200px;
+        } */
+
+        /* .vid{
+            width: 400px;
+            height: 220px;
+            background-color: white;
+        } */
+
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <!-- LEFT SIDEBAR -->
+        <div class="left">
+
+            <span class="menu">
+                <i class="fa fa-bars"></i>
+            </span>
+
+            <!-- <span class="logo">
+                <img src="https://imgs.search.brave.com/zxB2QkymC4d98QHgDlHrrewTe32Q30iDSD2NW-KanMY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi95b3V0dWJl/LWxvZ28taWNvbi1z/dmctZG93bmxvYWQt/cG5nLTU2NDA4NTgu/cG5nP2Y9d2VicCZ3/PTEyOA" alt="">
+                <span>YouTube</span>
+            </span> -->
+            
+            <div class="menu">
+                <i class="fa fa-home"></i>
+                <span>Home</span>
+            </div>
+
+            <div class="menu">
+                <i class="fa fa-shopping-cart"></i>
+                <span>Cart</span>
+            </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="right">
+            <div class="nav">
+                
+                <span class="logo">
+                    <img src="https://imgs.search.brave.com/zxB2QkymC4d98QHgDlHrrewTe32Q30iDSD2NW-KanMY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi95b3V0dWJl/LWxvZ28taWNvbi1z/dmctZG93bmxvYWQt/cG5nLTU2NDA4NTgu/cG5nP2Y9d2VicCZ3/PTEyOA" alt="">
+                    <span>YouTube</span>
+                </span>
+
+                <div class="input">
+                    <input type="text" placeholder="Search">
+                </div>
+                <span class="mic-main">
+                    <img class="mic" src="https://imgs.search.brave.com/WsNoun1EKDyCTWQ1zvAsh3mKHr1alNbW-wvW8rCiOSo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi9taWNyb3Bo/b25lLWljb24tc3Zn/LWRvd25sb2FkLXBu/Zy00NzI3NDQ0LnBu/Zz9mPXdlYnAmdz0x/Mjg" style="width: 30px; " alt="">
+                </span>
+
+
+                <div class="create">
+                    <span><i class="fa-sharp fa-thin fa-plus"></i></span>
+                    <span>Create</span>
+                </div>
+
+
+
+                <div class="bellIcon"><img src="https://imgs.search.brave.com/eaHS0UKS5NE4eIKvAoFpYGfnI7N1gF4xH0ilTi_4VmQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL3ByZW1p/dW0vcG5nLTI1Ni10/aHVtYi9ub3RpZmlj/YXRpb24tYmVsbC1p/Y29uLXN2Zy1kb3du/bG9hZC1wbmctNzEz/MTMxMi5wbmc_Zj13/ZWJwJnc9MTI4" alt=""></div>
+                <div class="profile">
+                    S
+                </div>
+            </div>
+
+
+            <div class="nav2">
+                <div class="box">All</div>
+                <div class="box">Gaming</div>
+                <div class="box">Live</div>
+                <div class="box">Wickets</div>
+                <div class="box">Esports</div>
+                <div class="box">Data Structures</div>
+                <div class="box">Music</div>
+                <div class="box">Web Development</div>
+                <div class="box">BAttlegrounds Mobile</div>
+                <div class="box">Indian Premier League</div>
+                <!-- <div class="box">Software Development</div> -->
+            </div>
+
+            <div class="hero1">
+                <div class="vid" >
+                    <iframe class="vid"
+                        src="https://player.vimeo.com/video/1127104834?background=1&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&muted=1&loop=1"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="vid">
+                    <iframe class="card"
+                        src="https://player.vimeo.com/video/1127104834?background=1&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&muted=1&loop=1"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>                   
+                </div>
+                <div class="vid">
+                    <iframe class="card"
+                        src="https://player.vimeo.com/video/1127104834?background=1&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&muted=1&loop=1"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>                   
+                </div>
+
+                <div class="vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cpoXLj24BDY?si=fx4ya_IqyrRr1bi3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        
+
+        </div>
+
+    </div>
+
+</body>
+</html>

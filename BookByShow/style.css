@@ -56,11 +56,12 @@ body{
 }
 
 .right-nav button{
-    background-color: crimson;
+    background-color: #EB4E62;
     color: white;
-    padding: 3px 15px;
+    padding: 6px 13px;
     border: none;
     border-radius: 5px;
+    font-size: 12px;
 }
 
 .sub-navbar{
